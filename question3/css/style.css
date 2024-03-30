@@ -1,0 +1,52 @@
+#body {
+  background-color: rgb(219, 219, 219);
+  font-family: "Poppins", sans-serif
+}
+
+.profile-card {
+  width: 400px;
+  height: 550px;
+  visibility: hidden;
+  background-color: rgb(222, 255, 103);
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px rgb(128, 128, 128);
+}
+
+#user-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.show-card {
+  visibility: visible;
+}
+
+#name {
+  padding: 10px;
+  background-color: rgb(53, 113, 241);
+  border-radius: 10px;
+}
+
+#address {
+  padding: 10px;
+  background-color: rgb(207, 222, 255);
+  border-radius: 10px;
+}
+
+#email {
+  padding: 5px;
+  background-color: rgb(207, 222, 255);
+  border-radius: 10px;
+}
+#birthday {
+  padding: 5px;
+  background-color: rgb(207, 222, 255);
+  border-radius: 10px;
+}
+#phone-number {
+  padding: 5px;
+  background-color: rgb(207, 222, 255);
+  border-radius: 10px;
+}
